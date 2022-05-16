@@ -13,13 +13,13 @@ menu
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     transition: all .5s;
 }
 
 nav {
-    background-color: #1C4D18;
+    background-color: #929f47;
     justify-content: space-between;
     position: fixed;
     top: 0;
@@ -52,6 +52,7 @@ li {
 h1 {
     margin: 0;
     padding: 10px;
+    color: #fef5da;
 }
 
 button {
@@ -224,7 +225,7 @@ header {
 }
 
 aside {
-    background-color: #b7d5ac;
+    background-color: #d6cfcf;
     width: 0vw;
     font-family: 'Hepta Slab', Helvetica, Arial;
     transition: all ease .2s;
@@ -418,7 +419,7 @@ h2 {
 }
 
 .modelsInfo--size.selected {
-    background-color: #006b00;
+    background-color: #929f47;
     color: #FFF;
 }
 
@@ -471,7 +472,7 @@ h2 {
     margin-top: 30px;
     padding: 20px 30px;
     border-radius: 20px;
-    background-color: #00a000;
+    background-color: #929f47;
     color: #FFF;
     display: inline-block;
     cursor: pointer;
@@ -513,7 +514,7 @@ h2 {
 }
 
 .cart--item-nome {
-    flex: 1;
+    flex: 10;
 }
 
 .cart--item--qtarea {
@@ -543,7 +544,7 @@ h2 {
 
 .cart--totalitem {
     padding: 15px 0;
-    border-top: 1px solid #79b9dd;
+    border-top: 1px dashed #929f47;
     color: #315970;
     display: flex;
     justify-content: space-between;
@@ -563,12 +564,12 @@ h2 {
 .cart--finalizar {
     padding: 20px 30px;
     border-radius: 20px;
-    background-color: #48d05f;
+    background-color: #929f47;
     color: #FFF;
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-    border: 2px solid #63f77c;
+    border: 2px solid #9cac41;
     transition: all ease .2s;
 }
 
